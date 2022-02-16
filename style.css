@@ -1,0 +1,387 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Varela Round', sans-serif;
+}
+
+:root {
+    --colorBlueLight: #00a8db;
+    --colorBlueLightHover: #00c3ff;
+    --colorBlue: #235390;
+    --colorBlue2: #0a4a82;
+    --colorBlueDark: #042c60;
+    --colorBlueHover: #214a80;
+    --colorGreen: #58cc02;
+    --colorGreenDark: #4ba804;
+    --colorGreenHover: #65e603;
+    --ColorWhite: #fff;
+    --colorWhite2: #ebebeb;
+    --colorWhite2Hover: #ecebeb;
+    --colorText: #777;
+    --colorTitle: #3c3c3c;
+}
+
+/*   ---   CONFIGS   ---   */
+.colorText {
+    color: var(--colorText);
+}
+
+.colorTitle {
+    color: var(--colorTitle);
+}
+
+span {
+    color: var(--colorTitle);
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.img-hei {
+    height: 145px;
+}
+
+.img-hei2 {
+    height: 180px;
+}
+
+/*   ---   MENU DE NAVEGAÇÂO   ---   */
+
+#navegacao {
+    display: flex;
+    width: 100%;
+    height: 70px;
+    background-color: var(--colorBlue);
+    align-items: center;
+    justify-content: space-around;
+    color: var(--ColorWhite);
+    position: fixed;
+    z-index: 1;
+}
+
+nav ul {
+    list-style: none;
+}
+
+.logo-ht {
+    height: 36px;
+}
+
+/*   ---   PRIMEIRA SESSÃO   ---   */
+
+/*   ---   HOME   ---   */
+
+hr {
+    width: 1100px;
+    margin: 5px auto;
+}
+
+#home {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    background-color: var(--colorBlue);
+    background-image: url(https://d35aaqx5ub95lt.cloudfront.net/images/star-pattern.svg);
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    width: 1250px;
+    margin: 0 auto;
+}
+
+#home-descritivo {
+    display: flex;
+    flex-direction: column;
+    max-width: 790px;
+    text-align: center;
+    margin: 80px;
+}
+
+#home-descritivo h1 {
+    color: var(--ColorWhite);
+    font-size: 30px;
+    margin-bottom: 47px;
+}
+
+#home-descritivo a {
+    margin: 0 auto;
+}
+
+/*   ---   BOTÕES   ---   */
+
+.bnt {
+    width: 320px;
+    height: 50px;
+    border-radius: 17px;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#colorGreen {
+    background-color: var(--colorGreen);
+    border: 1px solid var(--colorGreenDark);
+    color: var(--ColorWhite);
+    box-shadow: 0px 3px 1px var(--colorGreenDark);
+    
+}
+
+#colorGreen:hover {
+    background-color: var(--colorGreenHover);
+}
+
+#colorBlue {
+    background-color: var(--colorBlue);
+    color: var(--ColorWhite);
+    border: 2px solid var(--colorBlueDark);
+    box-shadow: 0px 3px 1px var(--colorBlueDark); 
+}
+
+#colorBlue:hover {
+    background-color: var(--colorBlueHover);
+}
+
+#colorGreen:active, #colorBlue:active {
+    position: relative;
+    top: 3px;
+    box-shadow: none;
+}
+
+/*   ---   BOTÂO 2  ---  */
+
+.bnt-bnt button {
+    width: 160px;
+    height: 60px;
+    border: 2px solid var(--colorText);
+    border-radius: 10px;
+    margin: 0 5px;
+    background-color: var(--ColorWhite);
+    box-shadow: 0px 3px 1px var(--colorText);
+}
+
+.bnt-bnt button:hover {
+    background-color: var(--colorWhite2Hover);
+}
+
+.bnt-bnt button:active {
+    position: relative;
+    top: 3px;
+    box-shadow: none;
+}
+
+/*   ---   BOTÃO FOOTER   ---   */
+
+.footer-descritivo button {
+    margin: 0 40px;
+    width: 150px;
+    height: 50px;
+    border-radius: 17px;
+    border: 1px solid var(--colorGreenDark);
+    background-color: var(--colorGreen);
+    color: var(--ColorWhite);
+    font-weight: bold;
+    box-shadow: 1px 3px 1px var(--colorGreenDark);
+}
+
+.footer-descritivo button:hover {
+    background-color: var( --colorGreenHover);
+}
+
+.footer-descritivo button:active {
+    position: relative;
+    top: 3px;
+    box-shadow: none;
+}
+
+/*   ---   FOOTER HOME   ---   */
+
+#footer-home {
+    position: absolute;
+    bottom: 1px;
+    width: 100%;
+    height: 74px;
+    background-color: var(--colorBlue2);
+}
+
+/*   ---   SEGUNDA SESSÃO   ---   */
+
+.container-p {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+/*   ---   LAYOUT    ---   */
+
+.layout {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+}
+
+.layout-img {
+    margin: 30px 50px;
+}
+
+.layout-descritivo {
+    max-width: 780px;
+    line-height: 25px;
+}
+
+.layout-descritivo p {
+    margin: 20px 0;
+}
+
+.layout-descritivo a {
+    color: var(--colorBlueLight);
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.layout-descritivo a:hover {
+    color: var(--colorBlueLightHover);
+}
+
+/*   ---   LAYOUT 2   ---   */
+
+.layout2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.layout2-titulo {
+    margin: 40px 30px;
+}
+
+.layout2-elementos {
+    display: flex;   
+}
+
+.layout2-conteudo {
+    line-height: 23px;
+    margin: 20px;
+    width: 360px;
+}
+
+.conteudo {
+    display: flex;
+}
+
+.conteudo h3 {
+    margin-bottom: 10px;
+}
+
+.conteudo-img {
+    position: relative;
+    top: -13px;
+    margin-right: 10px;
+}
+
+.hei {
+    height: 35px;
+}
+
+.conteudo-descritivo p {
+    padding-left: 10px;
+}
+
+/*   ---   ELEMENTOS   ---   */
+
+.elemento2 {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+
+/*   ---   FOOTER   ---   */
+
+footer {
+    display: flex;
+    width: 100%;
+    background-color: var(--colorBlue);
+    background-image: url(https://d35aaqx5ub95lt.cloudfront.net/images/star-pattern.svg);
+}
+
+.footer-caixa {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.footer-descritivo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 60px 60px 10px 60px;
+    font-size: 18px;
+    color: var(--ColorWhite);
+}
+
+.footer-links {
+    margin: 60px 46px;
+}
+
+.footer-links h3 {
+    color: var(--ColorWhite);
+    margin: 15px 0;
+}
+
+.footer-links p a {
+    color: var(--ColorWhite);
+    font-weight: 700;
+    opacity: .5;
+    text-decoration: none;
+    line-height: 30px;
+    font-size: 15px;
+}
+
+.footer-links p a:hover {
+    text-decoration: underline;
+}
+
+/*   ---   FF   ---   */
+
+.footer-footer {
+    margin: 25px;
+    padding: 0 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.ff-titulo h3 {
+    color: var(--ColorWhite);
+    margin: 15px 0;
+    font-size: 17px;
+}
+
+.linguas {
+    display: flex;
+    flex-direction: column;
+}
+
+.linguas p a {
+    color: var(--ColorWhite);
+    font-weight: 700;
+    opacity: .5;
+    text-decoration: none;
+    line-height: 30px;
+    font-size: 15px;
+    margin: 20px 10px;
+}
+
+.linguas p a:hover {
+    text-decoration: underline;
+}
+
+.linguas-list {
+    display: flex;
+}
