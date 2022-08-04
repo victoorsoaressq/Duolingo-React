@@ -114,7 +114,6 @@ main {
                     border: 1px solid $colorGreenDark;
                     color: $ColorWhite;
                     box-shadow: 0px 3px 1px $colorGreenDark;
-                    transition: 0.3s;
                 }
 
                 #colorGreen:hover {
@@ -126,7 +125,6 @@ main {
                     color: $ColorWhite;
                     border: 2px solid $colorBlueDark;
                     box-shadow: 0px 3px 1px $colorBlueDark; 
-                    transition: 0.3s;
                 }
                 
                 #colorBlue:hover {
@@ -177,6 +175,10 @@ main {
                 margin-right: 48px;
             }
 
+            .img {
+                height: 185px;
+            }
+
             .info-box {
                 display: flex;
                 align-items: center;
@@ -223,6 +225,39 @@ main {
 
                 p {
                     margin: 20px 0;
+                }
+
+                a {
+                    color: $colorBlueLight;
+                    font-weight: bold;
+                    text-decoration: none;
+                }
+
+                a:hover {
+                    color: $colorBlueLightHover;
+                }
+
+                .bnt-bnt {
+
+                    button {
+                        width: 160px;
+                        height: 60px;
+                        border: 2px solid $colorText;
+                        border-radius: 10px;
+                        margin: 0 5px;
+                        background-color: $ColorWhite;
+                        box-shadow: 0px 3px 1px $colorText;
+                    }
+
+                    button:hover {
+                        background-color: $colorWhite2Hover;
+                    }
+
+                    button:active {
+                        position: relative;
+                        top: 3px;
+                        box-shadow: none;
+                    }
                 }
             }
         }

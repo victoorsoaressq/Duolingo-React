@@ -83,7 +83,6 @@ main .home-container .home .home-botoes #colorGreen {
   border: 1px solid #4ba804;
   color: #fff;
   box-shadow: 0px 3px 1px #4ba804;
-  transition: 0.3s;
 }
 main .home-container .home .home-botoes #colorGreen:hover {
   background-color: #65e603;
@@ -93,7 +92,6 @@ main .home-container .home .home-botoes #colorBlue {
   color: #fff;
   border: 2px solid #042c60;
   box-shadow: 0px 3px 1px #042c60;
-  transition: 0.3s;
 }
 main .home-container .home .home-botoes #colorBlue:hover {
   background-color: #214a80;
@@ -131,6 +129,9 @@ main .informacoes .info-container .info-titulo h2 {
 main .informacoes .info-container img {
   height: 145px;
   margin-right: 48px;
+}
+main .informacoes .info-container .img {
+  height: 185px;
 }
 main .informacoes .info-container .info-box {
   display: flex;
@@ -171,6 +172,31 @@ main .informacoes .info-container .info-descritivo h2 {
 }
 main .informacoes .info-container .info-descritivo p {
   margin: 20px 0;
+}
+main .informacoes .info-container .info-descritivo a {
+  color: #00a8db;
+  font-weight: bold;
+  text-decoration: none;
+}
+main .informacoes .info-container .info-descritivo a:hover {
+  color: #00c3ff;
+}
+main .informacoes .info-container .info-descritivo .bnt-bnt button {
+  width: 160px;
+  height: 60px;
+  border: 2px solid #777;
+  border-radius: 10px;
+  margin: 0 5px;
+  background-color: #fff;
+  box-shadow: 0px 3px 1px #777;
+}
+main .informacoes .info-container .info-descritivo .bnt-bnt button:hover {
+  background-color: #ecebeb;
+}
+main .informacoes .info-container .info-descritivo .bnt-bnt button:active {
+  position: relative;
+  top: 3px;
+  box-shadow: none;
 }
 main .informacoes .linha {
   width: 1100px;
