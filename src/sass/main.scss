@@ -1,0 +1,241 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+$colorBlueLight: #00a8db;
+$colorBlueLightHover: #00c3ff;
+$colorBlue: #235390;
+$colorBlue2: #0a4a82;
+$colorBlueDark: #042c60;
+$colorBlueHover: #214a80;
+$colorGreen: #58cc02;
+$colorGreenDark: #4ba804;
+$colorGreenHover: #65e603;
+$ColorWhite: #fff;
+$colorWhite2: #ebebeb;
+$colorWhite2Hover: #ecebeb;
+$colorText: #777;
+$colorTitle: #3c3c3c;
+
+span {
+    color: $colorTitle;
+    text-decoration: underline;
+    cursor: pointer;
+    font-weight: 900;
+    opacity: 0.8;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 70px;
+    background-color: $colorBlue;
+    position: fixed;
+    z-index: 10;
+
+    .nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 1100px;
+        padding: 0 50px;
+
+        .logo {
+            img {
+                height: 36px;
+            }  
+        }
+
+        .nav-links {
+
+            p {
+                color: #fff;
+                font-weight: bolder;
+                font-size: 15px;
+            }
+        }
+        
+    }
+    
+}
+
+main {
+
+    .home-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        height: 100vh;
+        background-color: $colorBlue;
+        background-image: url(https://d35aaqx5ub95lt.cloudfront.net/images/star-pattern.svg);
+
+        .home {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+            .home-img {
+                margin: 0 20px;
+            }
+
+            .home-botoes {
+                display: flex;
+                justify-content: center;
+                text-align: center;
+                flex-direction: column;
+                max-width: 790px;
+                padding: 10px;
+                
+
+                h1 {
+                    color: $ColorWhite;
+                    font-size: 31px;
+                    margin-bottom: 47px;
+                }
+
+                button {
+                    width: 320px;
+                    height: 50px;
+                    border-radius: 17px;
+                    margin-bottom: 15px;
+                    text-transform: uppercase;
+                    font-weight: bolder;
+                    cursor: pointer;
+                }
+
+                #colorGreen {
+                    background-color: $colorGreen;
+                    border: 1px solid $colorGreenDark;
+                    color: $ColorWhite;
+                    box-shadow: 0px 3px 1px $colorGreenDark;
+                    transition: 0.3s;
+                }
+
+                #colorGreen:hover {
+                    background-color: $colorGreenHover;
+                }
+
+                #colorBlue {
+                    background-color: $colorBlue;
+                    color: $ColorWhite;
+                    border: 2px solid $colorBlueDark;
+                    box-shadow: 0px 3px 1px $colorBlueDark; 
+                    transition: 0.3s;
+                }
+                
+                #colorBlue:hover {
+                    background-color: $colorBlueHover;
+                }
+                
+                #colorGreen:active, #colorBlue:active {
+                    position: relative;
+                    top: 3px;
+                    box-shadow: none;
+                }
+            }
+        }
+
+        .home-footer {
+            position: absolute;
+            bottom: 1px;
+            width: 100%;
+            height: 74px;
+            background-color: $colorBlue2;
+        }
+    } 
+    
+    .informacoes {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background-color: $ColorWhite;
+
+        .info-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 1100px;
+            padding: 50px;
+
+            .info-titulo {
+
+                h2 {
+                    color: $colorTitle;
+                    margin-bottom: 40px;
+                }
+            }
+
+            img {
+                height: 145px;
+                margin-right: 48px;
+            }
+
+            .info-box {
+                display: flex;
+                align-items: center;
+                
+                .info-container-box {
+                    position: relative;
+                    line-height: 25px;
+                    width: 270px;
+                    margin-bottom: 10px;
+
+                    img {
+                        position: absolute;
+                        top: -10px;
+                        left: -105px;
+                        height: 46px; 
+                        padding: 3px;
+                    }
+
+                    h3 {
+                        color: $colorTitle;
+                        font-size: 18px;
+                    }
+
+                    p {
+                        margin: 10px 0;
+                        font-size: 14px;
+                        opacity: 0.7;
+                    }
+                }
+
+                img {
+                    height: 161px;
+                    margin: 0 80px 0 50px;
+                }
+            }
+
+            .info-descritivo {
+                line-height: 25px;
+                width: 717px;
+
+                h2 {
+                    color: $colorTitle;
+                }
+
+                p {
+                    margin: 20px 0;
+                }
+            }
+        }
+
+        .linha {
+            width: 1100px;
+            border: 1px solid $colorText;
+            opacity: 0.2;
+        }
+
+        .column {
+            flex-direction: column;
+        }
+    }
+    
+}
