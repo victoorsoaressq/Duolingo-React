@@ -1,4 +1,6 @@
+import React from 'react';
 import './sass/main.css'
+import { Link } from 'react-router-dom';
 
 function App() {
   return (
@@ -7,7 +9,7 @@ function App() {
       <header>
         <div className='nav'>
           <div className='logo'>
-            <a href='#'><img src='https://d35aaqx5ub95lt.cloudfront.net/images/dca3b978d07a7dfc05adb1d5526e9e21.svg'></img></a>
+            <a href='#'><img src='https://d35aaqx5ub95lt.cloudfront.net/images/dca3b978d07a7dfc05adb1d5526e9e21.svg' /></a>
           </div>
           <div className='nav-links'>
             <p>IDIOMA DO SITE: PORTUGUÊS</p>
@@ -24,7 +26,7 @@ function App() {
           <div className='home'>
 
             <div className='home-img'>
-              <img src="https://d35aaqx5ub95lt.cloudfront.net/images/331a32943ff73be28537dfc7469d5639.svg" alt="Planeta-img"></img>
+              <img src="https://d35aaqx5ub95lt.cloudfront.net/images/331a32943ff73be28537dfc7469d5639.svg" alt="Planeta-img" />
             </div>
             <div className='home-botoes'>
               <h1>O jeito grátis, divertido e eficaz de aprender um idioma!</h1>
@@ -42,7 +44,7 @@ function App() {
 
           <div className='info-container'>
 
-            <img src='https://d35aaqx5ub95lt.cloudfront.net/images/776364e6419216ffd84ddf8d8815711b.svg'></img>
+            <img src='https://d35aaqx5ub95lt.cloudfront.net/images/776364e6419216ffd84ddf8d8815711b.svg' />
 
             <div className='info-descritivo'>
               <h2>
@@ -70,7 +72,7 @@ function App() {
               <div>
                 <div className='info-container-box'>
 
-                  <img src='https://d35aaqx5ub95lt.cloudfront.net/images/feature-streak.svg'></img>
+                  <img src='https://d35aaqx5ub95lt.cloudfront.net/images/feature-streak.svg' />
 
                   <h3>Eficaz e eficiente</h3>
 
@@ -81,7 +83,7 @@ function App() {
 
                 <div className='info-container-box'>
 
-                  <img src='https://d35aaqx5ub95lt.cloudfront.net/images/feature-check.svg'></img>
+                  <img src='https://d35aaqx5ub95lt.cloudfront.net/images/feature-check.svg' />
 
                   <h3>Conteúdo personalizado</h3>
 
@@ -91,12 +93,12 @@ function App() {
                 </div>
               </div>
 
-              <img src='https://d35aaqx5ub95lt.cloudfront.net/images/laptop-features.svg'></img>
+              <img src='https://d35aaqx5ub95lt.cloudfront.net/images/laptop-features.svg' />
 
               <div>
                 <div className='info-container-box'>
 
-                  <img src='https://d35aaqx5ub95lt.cloudfront.net/images/splash/ebdcc22deaf0f85388fcb09e7ecfbe78.svg'></img>
+                  <img src='https://d35aaqx5ub95lt.cloudfront.net/images/splash/ebdcc22deaf0f85388fcb09e7ecfbe78.svg' />
 
                   <h3>Motivação constante</h3>
 
@@ -107,7 +109,7 @@ function App() {
 
                 <div className='info-container-box'>
 
-                  <img src='https://d35aaqx5ub95lt.cloudfront.net/images/splash/a4d5fab3d1926c240cb2ae696b07d156.svg'></img>
+                  <img src='https://d35aaqx5ub95lt.cloudfront.net/images/splash/a4d5fab3d1926c240cb2ae696b07d156.svg' />
 
                   <h3>Muita diversão!</h3>
 
@@ -126,7 +128,7 @@ function App() {
 
           <div className='info-container'>
 
-            <img className='img' src='https://d35aaqx5ub95lt.cloudfront.net/images/duo-plus-fly-circle-2.svg'></img>
+            <img className='img' src='https://d35aaqx5ub95lt.cloudfront.net/images/duo-plus-fly-circle-2.svg' />
 
             <div className='info-descritivo'>
               <h2>
@@ -162,7 +164,7 @@ function App() {
 
             </div>
 
-            <img className='img' src='https://d35aaqx5ub95lt.cloudfront.net/images/duo-traveler.svg'></img>
+            <img className='img' src='https://d35aaqx5ub95lt.cloudfront.net/images/duo-traveler.svg' />
 
           </div>
 
@@ -171,7 +173,7 @@ function App() {
           
           <div className='info-container'>
 
-            <img className='img' src='https://d35aaqx5ub95lt.cloudfront.net/images/laptop-schools.svg'></img>
+            <img className='img' src='https://d35aaqx5ub95lt.cloudfront.net/images/laptop-schools.svg' />
 
             <div className='info-descritivo'>
               <h2>
@@ -204,7 +206,7 @@ function App() {
 
             </div>
 
-            <img className='img' src='https://d35aaqx5ub95lt.cloudfront.net/images/9cb1bd734855384c2de08fe80443af9f.svg'></img>
+            <img className='img' src='https://d35aaqx5ub95lt.cloudfront.net/images/9cb1bd734855384c2de08fe80443af9f.svg' />
 
           </div>
 
@@ -213,7 +215,7 @@ function App() {
 
           <div className='info-container'>
 
-            <img className='img' src='https://d35aaqx5ub95lt.cloudfront.net/images/efficacyPage/5b117228254f9a9d8c7f541734f18225.svg'></img>
+            <img className='img' src='https://d35aaqx5ub95lt.cloudfront.net/images/efficacyPage/5b117228254f9a9d8c7f541734f18225.svg' />
 
             <div className='info-descritivo'>
               <h2>
@@ -232,6 +234,7 @@ function App() {
         </section>
 
       </main>
+
     </div>
   );
 }
