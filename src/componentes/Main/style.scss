@@ -4,21 +4,6 @@
     box-sizing: border-box;
 }
 
-$colorBlueLight: #00a8db;
-$colorBlueLightHover: #00c3ff;
-$colorBlue: #235390;
-$colorBlue2: #0a4a82;
-$colorBlueDark: #042c60;
-$colorBlueHover: #214a80;
-$colorGreen: #58cc02;
-$colorGreenDark: #4ba804;
-$colorGreenHover: #65e603;
-$ColorWhite: #fff;
-$colorWhite2: #ebebeb;
-$colorWhite2Hover: #ecebeb;
-$colorText: #777;
-$colorTitle: #3c3c3c;
-
 span {
     color: #3c3c3c;
     text-decoration: underline;
@@ -27,43 +12,7 @@ span {
     opacity: 0.8;
 }
 
-header {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    height: 70px;
-    background-color: $colorBlue;
-    position: fixed;
-    z-index: 10;
-
-    .nav {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        width: 1100px;
-        padding: 0 50px;
-
-        .logo {
-            img {
-                height: 36px;
-            }  
-        }
-
-        .nav-links {
-
-            p {
-                color: #fff;
-                font-weight: bolder;
-                font-size: 15px;
-            }
-        }
-        
-    }
-    
-}
-
-main {
+.main {
 
     .home-container {
         display: flex;
@@ -72,7 +21,7 @@ main {
         flex-direction: column;
         width: 100%;
         height: 100vh;
-        background-color: $colorBlue;
+        background-color: #235390;
         background-image: url(https://d35aaqx5ub95lt.cloudfront.net/images/star-pattern.svg);
 
         .home {
@@ -94,7 +43,7 @@ main {
                 
 
                 h1 {
-                    color: $ColorWhite;
+                    color: #fff;
                     font-size: 31px;
                     margin-bottom: 47px;
                 }
@@ -110,25 +59,25 @@ main {
                 }
 
                 #colorGreen {
-                    background-color: $colorGreen;
-                    border: 1px solid $colorGreenDark;
-                    color: $ColorWhite;
-                    box-shadow: 0px 3px 1px $colorGreenDark;
+                    background-color: #58cc02;
+                    border: 1px solid #4ba804;
+                    color: #fff;
+                    box-shadow: 0px 3px 1px #4ba804;
                 }
 
                 #colorGreen:hover {
-                    background-color: $colorGreenHover;
+                    background-color: #65e603;
                 }
 
                 #colorBlue {
-                    background-color: $colorBlue;
-                    color: $ColorWhite;
-                    border: 2px solid $colorBlueDark;
-                    box-shadow: 0px 3px 1px $colorBlueDark; 
+                    background-color: #235390;
+                    color: #fff;
+                    border: 2px solid #042c60;
+                    box-shadow: 0px 3px 1px #042c60; 
                 }
                 
                 #colorBlue:hover {
-                    background-color: $colorBlueHover;
+                    background-color: #214a80;
                 }
                 
                 #colorGreen:active, #colorBlue:active {
@@ -144,7 +93,7 @@ main {
             bottom: 1px;
             width: 100%;
             height: 74px;
-            background-color: $colorBlue2;
+            background-color: #0a4a82;
         }
     } 
     
@@ -153,7 +102,7 @@ main {
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        background-color: $ColorWhite;
+        background-color: #fff;
 
         .info-container {
             display: flex;
@@ -165,7 +114,7 @@ main {
             .info-titulo {
 
                 h2 {
-                    color: $colorTitle;
+                    color: #3c3c3c;
                     margin-bottom: 40px;
                 }
             }
@@ -198,7 +147,7 @@ main {
                     }
 
                     h3 {
-                        color: $colorTitle;
+                        color: #3c3c3c;
                         font-size: 18px;
                     }
 
@@ -220,7 +169,7 @@ main {
                 width: 717px;
 
                 h2 {
-                    color: $colorTitle;
+                    color: #3c3c3c;
                 }
 
                 p {
@@ -228,13 +177,13 @@ main {
                 }
 
                 a {
-                    color: $colorBlueLight;
+                    color: #00a8db;
                     font-weight: bold;
                     text-decoration: none;
                 }
 
                 a:hover {
-                    color: $colorBlueLightHover;
+                    color: #00c3ff;
                 }
 
                 .bnt-bnt {
@@ -242,15 +191,15 @@ main {
                     button {
                         width: 160px;
                         height: 60px;
-                        border: 2px solid $colorText;
+                        border: 2px solid #777;
                         border-radius: 10px;
                         margin: 0 5px;
-                        background-color: $ColorWhite;
-                        box-shadow: 0px 3px 1px $colorText;
+                        background-color: #fff;
+                        box-shadow: 0px 3px 1px #777;
                     }
 
                     button:hover {
-                        background-color: $colorWhite2Hover;
+                        background-color: #ecebeb;
                     }
 
                     button:active {
@@ -264,7 +213,7 @@ main {
 
         .linha {
             width: 1100px;
-            border: 1px solid $colorText;
+            border: 1px solid #777;
             opacity: 0.2;
         }
 
