@@ -1,0 +1,107 @@
+.inicio {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    background-color: var(--colorBlue1);
+    background-image: url('../../assets/svg/estrelas.svg');
+}
+
+.center {
+    width: 100%;
+    height: calc(100vh - 150px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1em;
+}
+
+.descritivo {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto 48px;
+}
+
+.descritivo h1{
+    color: var(--txtWhite);
+    text-align: center;
+    font-size: 1.8em;
+    margin-bottom: 2em;
+}
+
+.descritivo a {
+    width: 330px;
+    padding: .9em 0;
+    margin-bottom: 1em;
+    text-align: center;
+    color: var(--txtWhite);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: .9em;
+    font-weight: bold;
+    border: 2px solid var(--colorBlue2);
+    background-color: var(--colorBlue1);
+    border-radius: 16px;
+    box-shadow: 0 3px var(--colorBlue2);
+}
+
+.descritivo a:hover {
+    background-color: var(--hoverBlue);
+}
+
+#btnGreen2 {
+    border: 2px solid var(--colorGreen2);
+    background-color: var(--colorGreen1);
+    box-shadow: 0 3px var(--colorGreen2);
+}
+
+#btnGreen2:hover {
+    background-color: var(--hoverGreen);
+}
+
+.descritivo a:active,
+#btnGreen2:active {
+    position: relative;
+    top: 3px;
+    box-shadow: none;
+}
+
+.footer {
+    width: 100%;
+    height: 74px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--colorBlue3);
+}
+
+.arrow:first-of-type {
+    margin-right: 1.8em;
+}
+
+.box_icons {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 950px;
+}
+
+.box_icons img{
+    height: 28px;
+}
+
+.box_icons p {
+    color: var(--txtWhite);
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: .9em;
+    margin: 0 1.3em 0 .7em;
+}
+
+.icon {
+    display: flex;
+    align-items: center;
+}

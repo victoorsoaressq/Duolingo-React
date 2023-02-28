@@ -1,0 +1,64 @@
+.header {
+    position: fixed;
+    width: 100%;
+    background-color: var(--colorBlue1);
+    z-index: 10;
+}
+
+.container {
+    width: 1000px;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.container img {
+    height: 36px;
+}
+
+.idiomas {
+    height: 70px;
+    display: flex;
+    align-items: center;
+    margin-right: 2em;
+}
+
+.idiomas p {
+    font-size: 0.88em;
+    color: var(--txtWhite);
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.idiomas svg {
+    width: 32px;
+    fill: var(--txtWhite);
+}
+
+.buttons button {
+    border: none;
+    padding: .8em 1em;
+    margin-left: 1em;
+    border-radius: 16px;
+    background-color: var(--colorWhite1);
+    box-shadow: 0px 4px var(--colorWhite2);
+    color: var(--txtBlue1);
+    font-weight: bold;
+    font-size: .9em;
+    text-transform: uppercase;
+}
+
+#btnGreen {
+    background-color: var(--colorGreen1);
+    box-shadow: 0px 4px var(--colorGreen2);
+    color: var(--txtWhite);
+}
+
+.buttons button:active,
+#btnGreen:active {
+    position: relative;
+    top: 4px;
+    box-shadow: none;
+}

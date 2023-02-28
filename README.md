@@ -1,7 +1,25 @@
-# Duolingo React
+# Duolingo Clone
 Copiando site Duolingo utilizando React.js
 
-Meu primeiro código :)
+Este foi meu primerio projeto, a primeira versão dele foi feita em HTML e css, depois passei esse projeto para REACT.
 
- - A primeira versão do código era feita em HTML e CSS
- - Versão atualizada com React.js
+## Versão 1.0
+
+tecnologias
+
+- HTML5
+- CSS3
+
+## Versão 2.0
+
+tecnologias
+
+- React
+- Sass
+
+## Versão 3.0
+
+tecnologias
+
+- React
+- CSS Modules
