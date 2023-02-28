@@ -17,9 +17,17 @@ tecnologias
 - React
 - Sass
 
+Updates
+
+- Responsividade
+
 ## Versão 3.0
 
 tecnologias
 
 - React
 - CSS Modules
+
+Updates
+
+- Estrutura de pastas
