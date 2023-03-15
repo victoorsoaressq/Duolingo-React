@@ -131,6 +131,7 @@
 
 @media (max-width: 520px) {
     .descritivo {
+        width: 100%;
         padding: 0 10px;
     }
 }
