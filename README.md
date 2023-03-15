@@ -31,3 +31,9 @@ tecnologias
 Updates
 
 - Estrutura de pastas
+
+## Versão 3.1
+
+Updates
+
+- Media query
