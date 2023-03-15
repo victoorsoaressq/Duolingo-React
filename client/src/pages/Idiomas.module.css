@@ -51,3 +51,10 @@
 .box p {
     color: var(--txtWhite);
 }
+
+@media (max-width: 880px) {
+    .container {
+        justify-content: space-around;
+        width: 100%;
+    }
+}

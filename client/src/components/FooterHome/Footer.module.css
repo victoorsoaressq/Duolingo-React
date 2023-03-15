@@ -89,3 +89,36 @@
 .idiomas p {
     margin: .5em 1.5em 0 0;
 }
+
+@media (max-width: 1065px) {
+    .title {
+        flex-direction: column;
+    }
+
+    .title h2 {
+        text-align: center;
+        margin: 0;
+    }
+
+    .title a {
+        margin-top: 40px;
+    }
+
+    .container {
+        width: 100%;
+    }
+
+    .divisao {
+        width: 100%;
+    }
+}
+
+@media (max-width: 946px) {
+    .container {
+        flex-wrap: wrap;
+    }
+
+    .box {
+        margin: 0 20px;
+    }
+}
